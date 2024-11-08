@@ -41,7 +41,7 @@ jobs:
         run: |
           git config --global user.name 'vjelic'
           git config --global user.email 'jelicvladimir5@gmail.com'
-          rm -f $GITHUB_WORKSPACE/.glog/glog-scan-python*.sarif
+          rm -f $GITHUB_WORKSPACE/.glog/glog-scan-cpp*.sarif
           git add .
           git commit -am "Scan executed"
           git push
